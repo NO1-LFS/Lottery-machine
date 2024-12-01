@@ -100,12 +100,13 @@
           height: 100vh;
           font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
           background-image: url("./11.jpg");
-          background-size: cover;
+          background-size: contain; /* 将 cover 修改为 contain，实现等比例缩小 */
           background-position: center;
           color: #fff;
           animation: fadeIn 1s ease forwards;
-          padding: 20px; /* 添加内边距，避免内容紧贴屏幕边缘 */
+          padding: 20px;
         }
+        /* 其他手机端样式代码保持不变 */
 
         h1 {
           font-size: 28px;
